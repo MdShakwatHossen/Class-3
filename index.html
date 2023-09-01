@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Class-3 Assignment</title>
+  </head>
+  <body>
+    <h1>Example of All HTML Form Tag</h1>
+    <form>
+      <input type="search" placeholder="search a keyword" /><br /><br />
+      <label for="name">Name: </label>
+      <input type="text" placeholder="Enter your name" id="name" />
+      <br /><br />
+      <label for="email">E-mail: </label>
+      <input type="email" placeholder="example@gmail.com" id="email" />
+      <br /><br />
+      <label for="mobile">Mobile No: </label>
+      <input type="tel" placeholder="018********" id="mobile" />
+      <br /><br />
+      <label for="password">Password: </label>
+      <input type="password" placeholder="Enter your password" id="password" />
+      <br /><br />
+      <label for="social">Social Media: </label>
+      <input
+        placeholder="Enter your social media link"
+        type="url"
+        id="social"
+      />
+      <br /><br />
+      <label>Gender: </label><br />
+      <input type="radio" id="male" name="gender" />
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" />
+      <label for="female">Female</label>
+      <input type="radio" id="other" name="gender" />
+      <label for="other">Others</label>
+      <br /><br />
+      <label for="date of birth">Date of Birth: </label>
+      <input type="date" id="date of birth" />
+      <br /><br />
+      <label for="address">Address: </label><br />
+      <textarea id="address" rows="7" cols="20"></textarea><br /><br />
+      <fieldset>
+        <legend>Hobbies</legend>
+        <input type="checkbox" id="draw" /><label for="draw">Drawing</label>
+        <input type="checkbox" id="sing" /><label for="sing">Singing</label>
+        <input type="checkbox" id="dance" /><label for="dance">Dancing</label>
+        <input type="checkbox" id="others" /><label for="others">Others</label>
+      </fieldset>
+      <br /><br />
+      <label for="course">Course: </label>
+      <select id="course">
+        <optgroup label="Tranding">
+          <option value="">Web Design</option>
+          <option value="">Web Development</option>
+          <option>Artificial Intelligence</option>
+        </optgroup>
+        <optgroup label="More">
+          <option value="">MS Office Application</option>
+          <option value="">3D Animation</option>
+          <option value="">Cyber Security</option>
+          <option value="">Video Editing</option>
+        </optgroup></select
+      ><br /><br />
+      <label for="color">Favourite Color: </label>
+      <input type="color" id="color" />
+      <br /><br />
+      <label for="file">Import file: </label>
+      <input type="file" id="file" multiple /><br /><br />
+      <label for="range">Age: </label>
+      <input type="range" id="range" /><br /><br />
+      <button type="submit">Submit</button>
+      <input type="reset" />
+    </form>
+  </body>
+</html>
